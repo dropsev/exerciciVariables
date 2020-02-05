@@ -1,20 +1,14 @@
-import java.util.*;
 
 public class Fase4 {
 
 	public static void main(String[] args) {
+		String s6 = "Evandro Pereira Silva";
+		String s7 = "31/12/1982";
 		
-		List<Character> listName = new ArrayList<>(Arrays.asList('E', 'v', 'a', 'n', 'd', 'r', 'o'));
-		
-		List<Character> listSurname = new ArrayList<>(Arrays.asList('P', 'e', 'r', 'e', 'i', 'r', 'a'));
-		
-		List<Character> listEmpty = new ArrayList<>(Arrays.asList(' '));
-		
-        listName.addAll(listEmpty);
-        listName.addAll(listSurname);
-		
-        System.out.println(listName);
-        
+		System.out.println("El meu nom és "+ s6);
+		System.out.println("Vaig néixer el "+ s7);
+		System.out.println("El meu any de naixement és de traspàs");
+
 	}
 
 }
